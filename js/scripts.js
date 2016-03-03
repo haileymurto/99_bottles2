@@ -1,6 +1,6 @@
 var bottlesOfBeer = function(a) {
     var text = "";
-    if (a === 1 ) {
+    if ((a < 2) && (a > 0)) {
       return '1 bottle of beer on the wall, 1 bottle of beer...take it down, pass it around, no more bottles of beer on the wall!';
     }
 
